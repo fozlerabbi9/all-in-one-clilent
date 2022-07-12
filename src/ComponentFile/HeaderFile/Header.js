@@ -32,6 +32,7 @@ const Header = () => {
                                 <Nav.Link className='link-style' href="#Product">All-Product</Nav.Link>
                                 <Nav.Link className='link-style' href="#About">About</Nav.Link>
                                 <Nav.Link className='link-style' href="#Footer">Footer</Nav.Link>
+                                <Nav.Link as={Link} to="/login" className='link-style' href="#register">login</Nav.Link>
                                 <Nav.Link as={Link} to="/registation" className='link-style' href="#register">Registation</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
