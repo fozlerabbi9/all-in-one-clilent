@@ -1,0 +1,36 @@
+:root {
+    --animate-duration: 1.8s;
+    /* --animate-delay: 5s; */
+}
+
+#PortFolio {
+    padding: 50px 0;
+}
+
+#PortFolio p:first-child {
+    margin-bottom: 0;
+    opacity: .7;
+}
+
+.PortFolio-rowDiv-style {
+    margin-top: 0;
+}
+
+#PortFolio .portfolio-img-style {
+    height: 200px;
+    transition: all 0.5s;
+}
+
+#PortFolio .portfolio-card:hover .portfolio-img-style {
+    transform: scale(1.1);
+    background-color: blue;
+}
+
+.portfolio-card {
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.portfolio-card:hover {
+    box-shadow: 2px 12px 10px grey;
+}

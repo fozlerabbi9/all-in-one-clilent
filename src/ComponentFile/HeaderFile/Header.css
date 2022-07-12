@@ -1,0 +1,65 @@
+.nave-style {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 9999999999;
+}
+
+.nave-style #responsive-navbar-nav .link-style {
+    color: white;
+    /* font-size: 50px; */
+}
+
+.nave-style #responsive-navbar-nav .link-style:hover {
+    color: red;
+}
+
+.nave-style #responsive-navbar-nav .link-style:first-child {
+    color: red;
+}
+
+.nave-style #responsive-navbar-nav .link-style:last-child {
+    background-color: red;
+}
+
+.nave-style #responsive-navbar-nav .link-style:last-child:hover {
+    color: red;
+    background-color: white;
+}
+
+/* Main header css code */
+.main {
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/02/Photoshop-Replace-Background-Featured.jpg);
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 70px; */
+}
+
+.header-info-div {
+    background-color: rgba(0, 0, 7, 0.3);
+    height: 90vh;
+    padding: 0 100px;
+
+}
+
+.header-info {
+    padding: 110px 0;
+    box-sizing: border-box;
+}
+
+.header-info h2 {
+    font-size: 4rem;
+}
+
+.header-info button {
+    border: 0;
+    border: 1px solid gray;
+    padding: 5px 20px;
+    border-radius: 30px;
+    background-color: red;
+    color: white;
+}
+
+.contact-info {
+    color: white;
+}

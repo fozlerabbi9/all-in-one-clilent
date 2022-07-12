@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Header from './ComponentFile/HeaderFile/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+// import AboutUs from './ComponentFile/AboutUsFile/AboutUs';
+// import Prodeuct from './ComponentFile/ProductFile/Prodeuct';
+// import Footer from './ComponentFile/FooterFIle/Footer';
+import { Routes, Route } from 'react-router-dom';
+// import AboutUs from './ComponentFile/AboutUsFile/AboutUs';
+// import Prodeuct from './ComponentFile/ProductFile/Prodeuct';
+import Footer from './ComponentFile/FooterFIle/Footer';
+import Registation from './ComponentFile/RegisterFile/Registation';
+import Home from './ComponentFile/HomeFile/Home';
+import Header from './ComponentFile/HeaderFile/Header';
+// import Registation from './ComponentFile/RegisterFile/Registation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Home></Home>
+      <Header></Header>
+      <Routes>
+
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/registation" element={<Registation></Registation>}></Route>
+      </Routes>
+
+
+
+      <Footer></Footer>
+
     </div>
   );
 }
